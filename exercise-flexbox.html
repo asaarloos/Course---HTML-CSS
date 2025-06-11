@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+        Exercise Flexbox
+      </title>
+      <style>
+        .header{
+          background-color: rgb(211, 246, 211);
+          padding: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: 40px;
+        }
+        .left-header{
+          background-color: white;
+          width: 200px;
+        }
+        .middle-header{
+          background-color: lightgoldenrodyellow;
+          flex:1;
+          max-width: 400px;
+        }
+        .right-header{
+          background-color: white;
+          width: 300px;
+        }
+        .exercise-12a{
+          display: flex;
+        }
+        .question-ab{
+          display: flex;
+          flex-direction: row;
+        }
+        .question-c{
+          display: flex;
+          justify-content: space-between;
+          border-color: grey;
+          border-style: solid;
+        }
+        .question-d{
+          display: flex;
+          justify-content: space-between;
+          border-color: grey;
+          border-style: solid;
+          border-width: 1px;
+          height: 50px;
+          align-items: center;
+        }
+      </style>
+      <body>
+        <div class="header">
+          <div class="left-header">
+            LEFT HEADER
+          </div>
+          <div class="middle-header">
+            <p> Lesson 12 Exercises - Flexbox</p>   
+          </div>
+          <div class="right-header">
+          <p>Name: Ashley Saarloos</p>
+          <p> Project: Course - HTML & CSS </p>  
+          </div>
+        </div>
+        <div class="img-exercise">
+           <img class="img-exercise12" src="Lesson 12 - Flexbox - Exercises2.png"> 
+        </div>
+        <div class="Exercises-12">
+           <p> 12a: Create a flexbox with 2 items. Width = 200px | 75px </p>
+          <div class="exercise-12a">
+            <div style="background-color: lightblue;
+            width: 200px;">
+            200px
+            </div>
+            <div style="background-color: lightpink;
+            width: 75px;">
+            75px</div>
+          </div>
+          <div class="exercise-12b">
+            <p> 12b. A flexbox with 3 items. Width = 50px | Remaining space | 75px </p>
+            <div class="question-ab">
+              <div style="background-color: lightblue;
+            width: 50px;">
+                item 1 
+              </div>
+              <div style="background-color: lightpink;
+            flex: 1;">
+                item 2
+              </div>
+              <div style="background-color: lightblue;
+            width: 75px;">
+                item3
+              </div>
+            </div> 
+          </div>
+          <div class="exercise-12c">
+            <p> 12c. A Flexbox with 4 items, spread evenly across the page</p>
+            <div class="question-c">
+              <div style="background-color: lightpink">
+              item 1 
+              </div>
+              <div style="background-color: lightpink;">
+                item 2
+              </div>
+              <div style="background-color: lightpink;">
+                item3
+              </div>
+              <div style="background-color: lightpink;">
+                item4
+              </div>
+            </div> 
+          </div>
+          <div class="exercise-12d">
+            <p> 12d. Create the flexbox below with height = 50px and a gray border</p>
+            <div class="question-d">
+              <div style="background-color: lightpink">
+              item 1 
+              </div>
+              <div style="background-color: lightpink;">
+                item 2
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="img-exercise">
+          <img class="img-exercise-12-challenge" src="Lesson 12 - Challenge Exercises - Flexbox .png">
+        </div> 
+        <p></p>
+        <p> 12. Create this design </p>
+        <div style="
+          display: flexbox;
+          flex-direction: row">
+          <div class="titles">
+            <p>Home</p>
+            <p>Notifications</p>
+            <p>Messages</p>
+          </div>
+          <div class="notifications">
+            <p>14</p>
+            <p>3</p>
+            <p>5</p>
+          </div>
+
+
+      </body>
+    </head>
+</html>
