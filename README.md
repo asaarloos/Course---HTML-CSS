@@ -1,6 +1,6 @@
 # Course - HTML & CSS
 
-This project excistes of one project and exercises done. 
+This project contains a project and exercises of HTML & CSS Course of SuperSimpleDev . 
 
 ## Introduction
 
